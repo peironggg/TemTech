@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C90A5B7D9E9C5D88206117BA /* Pods_Shoppal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B663D1C057F284C1C4B85DD7 /* Pods_Shoppal.framework */; };
+		E55D3751217CB28200B67E43 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E55D3750217CB28200B67E43 /* SignUpViewController.swift */; };
+		E55D3753217CCF3C00B67E43 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E55D3752217CCF3C00B67E43 /* HomeViewController.swift */; };
+		E55D3755217CCF5200B67E43 /* OrdersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E55D3754217CCF5200B67E43 /* OrdersViewController.swift */; };
+		E55D3757217CCF5C00B67E43 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E55D3756217CCF5C00B67E43 /* SettingsViewController.swift */; };
+		E55D3759217D58E000B67E43 /* SubmitPaymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E55D3758217D58E000B67E43 /* SubmitPaymentViewController.swift */; };
+		E55D375C217D643700B67E43 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E55D375B217D643700B67E43 /* Main.storyboard */; };
+		E55D3761217DBC7200B67E43 /* SubmitOrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E55D3760217DBC7200B67E43 /* SubmitOrderViewController.swift */; };
+		E55D3765217DBD4700B67E43 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E55D3764217DBD4700B67E43 /* Home.storyboard */; };
+		E55D376A217EB3A200B67E43 /* OrderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E55D3768217EB3A200B67E43 /* OrderCell.swift */; };
+		E55D376B217EB3A200B67E43 /* OrderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E55D3769217EB3A200B67E43 /* OrderCell.xib */; };
+		E560901F218C55C9004FFAE4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E560901E218C55C9004FFAE4 /* Assets.xcassets */; };
+		E56751BF2196BE50008626D0 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E56751BE2196BE50008626D0 /* ChatViewController.swift */; };
+		E56751C32196BFCA008626D0 /* CustomMessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E56751C12196BFCA008626D0 /* CustomMessageCell.swift */; };
+		E56751C42196BFCA008626D0 /* MessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E56751C22196BFCA008626D0 /* MessageCell.xib */; };
+		E56751C6219747CD008626D0 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = E56751C5219747CD008626D0 /* Message.swift */; };
+		E56751C9219FCDF9008626D0 /* Roboto.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E56751C8219FCB69008626D0 /* Roboto.ttf */; };
+		E5E19C30217CA56400E3A02D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E19C2F217CA56400E3A02D /* AppDelegate.swift */; };
+		E5E19C32217CA56400E3A02D /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E19C31217CA56400E3A02D /* LogInViewController.swift */; };
+		E5E19C35217CA56400E3A02D /* Start.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5E19C33217CA56400E3A02D /* Start.storyboard */; };
+		E5E19C3A217CA56600E3A02D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5E19C38217CA56600E3A02D /* LaunchScreen.storyboard */; };
+		E5E19C42217CA5E700E3A02D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E5E19C41217CA5E700E3A02D /* GoogleService-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		07EBCD96C261841FA5E7C9A3 /* Pods-Shoppal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shoppal.release.xcconfig"; path = "Pods/Target Support Files/Pods-Shoppal/Pods-Shoppal.release.xcconfig"; sourceTree = "<group>"; };
+		1208B6AAC103C66AD1E1F943 /* Pods-Shoppal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shoppal.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Shoppal/Pods-Shoppal.debug.xcconfig"; sourceTree = "<group>"; };
+		2A731D796A5AF477C3BAFB64 /* Pods_Shopee.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Shopee.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B663D1C057F284C1C4B85DD7 /* Pods_Shoppal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Shoppal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E55D3750217CB28200B67E43 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		E55D3752217CCF3C00B67E43 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		E55D3754217CCF5200B67E43 /* OrdersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdersViewController.swift; sourceTree = "<group>"; };
+		E55D3756217CCF5C00B67E43 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		E55D3758217D58E000B67E43 /* SubmitPaymentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubmitPaymentViewController.swift; sourceTree = "<group>"; };
+		E55D375B217D643700B67E43 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		E55D375D217D853200B67E43 /* Shopee.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Shopee.entitlements; sourceTree = "<group>"; };
+		E55D3760217DBC7200B67E43 /* SubmitOrderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubmitOrderViewController.swift; sourceTree = "<group>"; };
+		E55D3764217DBD4700B67E43 /* Home.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		E55D3768217EB3A200B67E43 /* OrderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderCell.swift; sourceTree = "<group>"; };
+		E55D3769217EB3A200B67E43 /* OrderCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OrderCell.xib; sourceTree = "<group>"; };
+		E560901E218C55C9004FFAE4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E56751BE2196BE50008626D0 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		E56751C12196BFCA008626D0 /* CustomMessageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomMessageCell.swift; sourceTree = "<group>"; };
+		E56751C22196BFCA008626D0 /* MessageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MessageCell.xib; sourceTree = "<group>"; };
+		E56751C5219747CD008626D0 /* Message.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		E56751C8219FCB69008626D0 /* Roboto.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Roboto.ttf; sourceTree = "<group>"; };
+		E5E19C2C217CA56400E3A02D /* Shoppal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Shoppal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5E19C2F217CA56400E3A02D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E5E19C31217CA56400E3A02D /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		E5E19C34217CA56400E3A02D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Start.storyboard; sourceTree = "<group>"; };
+		E5E19C39217CA56600E3A02D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E5E19C3B217CA56600E3A02D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E5E19C41217CA5E700E3A02D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E5E19C29217CA56400E3A02D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C90A5B7D9E9C5D88206117BA /* Pods_Shoppal.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6626C2BCAEE1374E07DAE201 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1208B6AAC103C66AD1E1F943 /* Pods-Shoppal.debug.xcconfig */,
+				07EBCD96C261841FA5E7C9A3 /* Pods-Shoppal.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		930E1578860E57FC48E8222F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2A731D796A5AF477C3BAFB64 /* Pods_Shopee.framework */,
+				B663D1C057F284C1C4B85DD7 /* Pods_Shoppal.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E55D3762217DBC7A00B67E43 /* Home VCs */ = {
+			isa = PBXGroup;
+			children = (
+				E55D3752217CCF3C00B67E43 /* HomeViewController.swift */,
+				E55D3758217D58E000B67E43 /* SubmitPaymentViewController.swift */,
+				E55D3760217DBC7200B67E43 /* SubmitOrderViewController.swift */,
+			);
+			path = "Home VCs";
+			sourceTree = "<group>";
+		};
+		E55D3763217DBC8E00B67E43 /* Start VCs */ = {
+			isa = PBXGroup;
+			children = (
+				E5E19C31217CA56400E3A02D /* LogInViewController.swift */,
+				E55D3750217CB28200B67E43 /* SignUpViewController.swift */,
+			);
+			path = "Start VCs";
+			sourceTree = "<group>";
+		};
+		E55D376C217EB3AE00B67E43 /* Cell VCs */ = {
+			isa = PBXGroup;
+			children = (
+				E55D3768217EB3A200B67E43 /* OrderCell.swift */,
+				E55D3769217EB3A200B67E43 /* OrderCell.xib */,
+			);
+			path = "Cell VCs";
+			sourceTree = "<group>";
+		};
+		E55D37702183140A00B67E43 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				E56751C8219FCB69008626D0 /* Roboto.ttf */,
+			);
+			name = Font;
+			sourceTree = "<group>";
+		};
+		E56751BD2196BE0A008626D0 /* Chat Cell VCs */ = {
+			isa = PBXGroup;
+			children = (
+				E56751C12196BFCA008626D0 /* CustomMessageCell.swift */,
+				E56751C22196BFCA008626D0 /* MessageCell.xib */,
+			);
+			path = "Chat Cell VCs";
+			sourceTree = "<group>";
+		};
+		E56751C02196BE5E008626D0 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				E5E19C33217CA56400E3A02D /* Start.storyboard */,
+				E55D375B217D643700B67E43 /* Main.storyboard */,
+				E55D3764217DBD4700B67E43 /* Home.storyboard */,
+				E5E19C38217CA56600E3A02D /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		E56751C7219747DC008626D0 /* Chat VCs */ = {
+			isa = PBXGroup;
+			children = (
+				E56751C5219747CD008626D0 /* Message.swift */,
+				E56751BE2196BE50008626D0 /* ChatViewController.swift */,
+			);
+			path = "Chat VCs";
+			sourceTree = "<group>";
+		};
+		E5E19C23217CA56400E3A02D = {
+			isa = PBXGroup;
+			children = (
+				E560901E218C55C9004FFAE4 /* Assets.xcassets */,
+				E5E19C2E217CA56400E3A02D /* Shopee */,
+				E5E19C2D217CA56400E3A02D /* Products */,
+				E55D37702183140A00B67E43 /* Font */,
+				6626C2BCAEE1374E07DAE201 /* Pods */,
+				930E1578860E57FC48E8222F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E5E19C2D217CA56400E3A02D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E5E19C2C217CA56400E3A02D /* Shoppal.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E5E19C2E217CA56400E3A02D /* Shopee */ = {
+			isa = PBXGroup;
+			children = (
+				E55D375D217D853200B67E43 /* Shopee.entitlements */,
+				E5E19C2F217CA56400E3A02D /* AppDelegate.swift */,
+				E56751C02196BE5E008626D0 /* Storyboard */,
+				E56751C7219747DC008626D0 /* Chat VCs */,
+				E55D3763217DBC8E00B67E43 /* Start VCs */,
+				E55D3762217DBC7A00B67E43 /* Home VCs */,
+				E55D376C217EB3AE00B67E43 /* Cell VCs */,
+				E56751BD2196BE0A008626D0 /* Chat Cell VCs */,
+				E55D3756217CCF5C00B67E43 /* SettingsViewController.swift */,
+				E55D3754217CCF5200B67E43 /* OrdersViewController.swift */,
+				E5E19C41217CA5E700E3A02D /* GoogleService-Info.plist */,
+				E5E19C3B217CA56600E3A02D /* Info.plist */,
+			);
+			path = Shopee;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E5E19C2B217CA56400E3A02D /* Shoppal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E5E19C3E217CA56600E3A02D /* Build configuration list for PBXNativeTarget "Shoppal" */;
+			buildPhases = (
+				6378773268CDAF77D1E8E67B /* [CP] Check Pods Manifest.lock */,
+				E5E19C28217CA56400E3A02D /* Sources */,
+				E5E19C29217CA56400E3A02D /* Frameworks */,
+				E5E19C2A217CA56400E3A02D /* Resources */,
+				7E6D13529F4DE24E7654AA88 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Shoppal;
+			productName = Shopee;
+			productReference = E5E19C2C217CA56400E3A02D /* Shoppal.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E5E19C24217CA56400E3A02D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Wu Peirong";
+				TargetAttributes = {
+					E5E19C2B217CA56400E3A02D = {
+						CreatedOnToolsVersion = 10.0;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = E5E19C27217CA56400E3A02D /* Build configuration list for PBXProject "Shoppal" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E5E19C23217CA56400E3A02D;
+			productRefGroup = E5E19C2D217CA56400E3A02D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E5E19C2B217CA56400E3A02D /* Shoppal */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E5E19C2A217CA56400E3A02D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E55D376B217EB3A200B67E43 /* OrderCell.xib in Resources */,
+				E5E19C3A217CA56600E3A02D /* LaunchScreen.storyboard in Resources */,
+				E55D375C217D643700B67E43 /* Main.storyboard in Resources */,
+				E5E19C42217CA5E700E3A02D /* GoogleService-Info.plist in Resources */,
+				E560901F218C55C9004FFAE4 /* Assets.xcassets in Resources */,
+				E56751C42196BFCA008626D0 /* MessageCell.xib in Resources */,
+				E56751C9219FCDF9008626D0 /* Roboto.ttf in Resources */,
+				E55D3765217DBD4700B67E43 /* Home.storyboard in Resources */,
+				E5E19C35217CA56400E3A02D /* Start.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6378773268CDAF77D1E8E67B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Shoppal-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7E6D13529F4DE24E7654AA88 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Shoppal/Pods-Shoppal-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ChameleonFramework/ChameleonFramework.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/JGProgressHUD/JGProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/SimpleCheckbox/SimpleCheckbox.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ChameleonFramework.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JGProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SimpleCheckbox.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Shoppal/Pods-Shoppal-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E5E19C28217CA56400E3A02D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E55D3755217CCF5200B67E43 /* OrdersViewController.swift in Sources */,
+				E56751C32196BFCA008626D0 /* CustomMessageCell.swift in Sources */,
+				E55D3761217DBC7200B67E43 /* SubmitOrderViewController.swift in Sources */,
+				E56751BF2196BE50008626D0 /* ChatViewController.swift in Sources */,
+				E55D3751217CB28200B67E43 /* SignUpViewController.swift in Sources */,
+				E5E19C32217CA56400E3A02D /* LogInViewController.swift in Sources */,
+				E55D376A217EB3A200B67E43 /* OrderCell.swift in Sources */,
+				E5E19C30217CA56400E3A02D /* AppDelegate.swift in Sources */,
+				E55D3759217D58E000B67E43 /* SubmitPaymentViewController.swift in Sources */,
+				E56751C6219747CD008626D0 /* Message.swift in Sources */,
+				E55D3753217CCF3C00B67E43 /* HomeViewController.swift in Sources */,
+				E55D3757217CCF5C00B67E43 /* SettingsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E5E19C33217CA56400E3A02D /* Start.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E5E19C34217CA56400E3A02D /* Base */,
+			);
+			name = Start.storyboard;
+			sourceTree = "<group>";
+		};
+		E5E19C38217CA56600E3A02D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E5E19C39217CA56600E3A02D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E5E19C3C217CA56600E3A02D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E5E19C3D217CA56600E3A02D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E5E19C3F217CA56600E3A02D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1208B6AAC103C66AD1E1F943 /* Pods-Shoppal.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Shopee/Shopee.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JS6NFR972X;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = Shopee/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.peirong.Shopee;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E5E19C40217CA56600E3A02D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07EBCD96C261841FA5E7C9A3 /* Pods-Shoppal.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Shopee/Shopee.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JS6NFR972X;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = Shopee/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.peirong.Shopee;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E5E19C27217CA56400E3A02D /* Build configuration list for PBXProject "Shoppal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5E19C3C217CA56600E3A02D /* Debug */,
+				E5E19C3D217CA56600E3A02D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E5E19C3E217CA56600E3A02D /* Build configuration list for PBXNativeTarget "Shoppal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5E19C3F217CA56600E3A02D /* Debug */,
+				E5E19C40217CA56600E3A02D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E5E19C24217CA56400E3A02D /* Project object */;
+}
